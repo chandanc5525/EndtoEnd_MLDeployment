@@ -15,9 +15,10 @@ def prepare_data():
     data_encode = encode_cat_cols(data)
     
     # 3. Data Cleaning
+    
     df = parse_garden_col(data_encode)
     
-    return data
+    return df
 
 def encode_cat_cols(data):
     return pd.get_dummies(data, 
@@ -40,4 +41,4 @@ def parse_garden_col(data):
 
 df = prepare_data()
 
-print(df)
+# print(df)
