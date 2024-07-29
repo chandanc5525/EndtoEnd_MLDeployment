@@ -24,11 +24,3 @@ class ModelService:
         return self.model.predict([input_parameters])
     
     
-    # testing
-#ml_service = ModelService()
-    
-#ml_service.load_model('rf_v1')
-
-#input_parameters = [85,2015,2,20,1,1,0,0,1]
-#pred = ml_service.predict(input_parameters)    
-#print(f'The Predicted Rent Based On Input Parameter is {pred} Dollars.')
