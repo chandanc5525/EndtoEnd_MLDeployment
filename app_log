@@ -1,0 +1,7 @@
+2024-07-29 21:35:51.278 | INFO     | __main__:<module>:9 - Calculating a/b
+2024-07-29 21:35:51.279 | WARNING  | __main__:divide_by:11 - Please make sure that entered numbers cannot be zero
+2024-07-29 21:35:51.280 | ERROR    | __main__:<module>:19 - Divide by Zero Error
+2024-07-29 21:43:44.011 | INFO     | __main__:<module>:5 - Running ModelService
+2024-07-29 21:43:44.064 | WARNING  | __main__:main:9 - Please Ensure Indepedent Variable Data for Prediction Model Service
+2024-07-29 21:45:29.479 | INFO     | __main__:<module>:5 - Running ModelService
+2024-07-29 21:45:29.502 | WARNING  | __main__:main:9 - Please Ensure Indepedent Variable Data for Prediction Model Service
