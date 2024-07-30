@@ -2,26 +2,26 @@
 numpy==1.24.2
 pandas==2.0.1
 scikit-learn==1.3.0
-matplotlib==3.7.1
-seaborn==0.12.2
+# matplotlib==3.7.1
+# seaborn==0.12.2
 
 # Machine learning frameworks
-tensorflow==2.13.0    # or keras==2.15.0 if using standalone Keras
-torch==2.0.0          # PyTorch if using a PyTorch-based model
+# tensorflow==2.13.0    # or keras==2.15.0 if using standalone Keras
+# torch==2.0.0          # PyTorch if using a PyTorch-based model
 
 # Deployment libraries
-flask==2.3.2          # for web API deployment
-gunicorn==20.1.0      # WSGI HTTP server for deployment
-uvicorn==0.23.1       # ASGI server for fast deployment
+# flask==2.3.2          # for web API deployment
+# gunicorn==20.1.0      # WSGI HTTP server for deployment
+# uvicorn==0.23.1       # ASGI server for fast deployment
 
 # Additional tools
 requests==2.31.0      # for HTTP requests
-pytest==7.4.0         # for testing
-pydantic==2.6.0       # for data validation
+# pytest==7.4.0         # for testing
+# pydantic==2.6.0       # for data validation
 
 # Optional for Jupyter Notebooks
-jupyterlab==4.0.0
-ipython==8.12.0
+# jupyterlab==4.0.0
+# ipython==8.12.0
 
 # For creating reproducible environments
-pip-tools==6.9.0      # to use pip-compile for managing dependencies
+# pip-tools==6.9.0      # to use pip-compile for managing dependencies
